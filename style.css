@@ -1,13 +1,31 @@
 
-.open-sans-unique {
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <bolder>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
+/* nav style */
 nav{
     display: flex;
+    gap: 1000px;
+    margin: 0;
+}
+.nav-logo{
+    font-weight: 800;
+    font-size: 50px;
+    color: blue;
+    margin: 0;
+}
+
+/* button-style */
+.button{
+    margin: 0 auto;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
 }
