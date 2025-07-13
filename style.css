@@ -7,14 +7,22 @@
     "wdth" 100;
 }
 
+body{
+    
+}
 /* nav style */
 /* .logo-btn{
     justify-content: space-between;
 } */
+
+header{
+    background-image: url(images/Hero-bg.png);
+}
 nav{
     display: flex;
     justify-content: space-between;
     margin: 5px 20px;
+    /* background-image: url(images/Hero-bg.png); */
    
     
 }
@@ -34,4 +42,23 @@ nav{
     font-size: 20px;
     font-weight: 800;
     margin: 0;
+}
+
+/* banner style */
+
+.banner-header{
+    margin-top: 300px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+     font-size: bold;
+    font-weight: bold;
+    color: rgb(20, 0, 27);
+}
+
+.banner-font{
+   
 }
