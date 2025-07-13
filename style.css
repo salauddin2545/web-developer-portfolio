@@ -7,9 +7,9 @@
     "wdth" 100;
 }
 
-body{
-    
-}
+/* .open-sans-normal:hover{
+    border: solid 2px;
+} */
 /* nav style */
 /* .logo-btn{
     justify-content: space-between;
@@ -18,21 +18,25 @@ body{
 header{
     background-image: url(images/Hero-bg.png);
 }
+
 nav{
     display: flex;
     justify-content: space-between;
     margin: 5px 20px;
     /* background-image: url(images/Hero-bg.png); */
-   
-    
+       
 }
+
 .nav-logo{
     font-weight: 800;
     font-size: 50px;
     color: blue;
-    
 }
 
+.nav-logo:hover{
+    border: solid 5px;
+    color: rgb(238, 170, 147);
+}
 /* button-style */
 .button{
     background-color: blue;
@@ -43,6 +47,10 @@ nav{
     font-weight: 800;
     margin: 0;
 }
+.button:hover{
+    border: solid 5px;
+    background-color: darksalmon;
+}
 
 /* banner style */
 
@@ -52,6 +60,10 @@ nav{
     padding-bottom: 250px;
 }
 
+.banner-greeting:hover{
+    border: solid 2px;
+    background-color: bisque;
+}
 .banner-greeting{
     font-size: 45px;
      font-size: bold;
@@ -59,6 +71,42 @@ nav{
     color: rgb(20, 0, 27);
 }
 
-.banner-font{
+.font-style{
    
+}
+/* banner-one */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    margin: 20px 200px;
+    align-items: center;
+    gap: 100px;
+}
+
+.banner:hover{
+    border: solid 4px;
+    padding: 20px 200px;
+    margin: 20px 300px;
+}
+.banner-one-header{
+    font-weight: 800;
+    font-size: 30px;
+}
+.paragraph{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.banner-two{
+    background-size: 1140px 340px;
+    background-color: beige;
+}
+
+.rating-content{
+    display: flex;
 }
