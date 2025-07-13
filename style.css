@@ -77,18 +77,18 @@ nav{
 /* banner-one */
 .banner{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 200px;
-    margin: 20px 200px;
-    align-items: center;
-    gap: 100px;
+    justify-content: space-around;
+    padding: 30px 200px;
+    margin: 0px auto;
+    align-content: center;
+    
 }
 
-.banner:hover{
+/* .banner:hover{
     border: solid 4px;
     padding: 20px 200px;
     margin: 20px 300px;
-}
+} */
 .banner-one-header{
     font-weight: 800;
     font-size: 30px;
@@ -102,11 +102,36 @@ img{
     border-radius: 20px;
 }
 
+/* banner-two */
 .banner-two{
-    background-size: 1140px 340px;
+    max-width: 1140px;
     background-color: beige;
+    text-align: center;
+    padding: 100px 130px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .rating-content{
     display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+.rating-header{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.rating-unit{
+    font-size: 80px;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 0;
+}
+
+.rating-p {
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: 600;
 }
