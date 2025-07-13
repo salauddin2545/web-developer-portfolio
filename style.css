@@ -146,35 +146,95 @@ img{
 
 .users-rating-conten{
     max-width: 370px;
-    max-height: 245px;
+    max-height: 300px;
     background-color: beige;
-    /* margin: 0 auto;
-    padding: 15px 20px; */
-}
-.user-div{
     
 }
+.user-div{
+    margin: 0 auto;
+    padding: 15px 20px;
+}
 
+.rating-stars{
+    margin: 5px 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
 .user-status-head{
     text-align: center;
     font-weight: 900;
     font-size: 50px;
 }
+.rating-purpose{
+    font-weight: 600px;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 0;
+}
 
 .user-rating{
     display: inline-block;
+    margin: 0 auto;
 }
 
 .user-details{
     display: flex;
     margin: 0 auto;
-    padding: 10px 20px;
-    gap: 10px;
+    padding: 0 20px;
+
 }
 
+.user-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.user-date{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
 .user-image{
     width: 40px;
     height: 50px;
     margin-right: 10px;
     margin: o auto;
+}
+.user-nam{
+   margin-top: auto;
+}
+
+
+/* footer-content */
+.footer-content-all{
+    align-content: center;
+    text-align: center;
+
+}
+
+.fotter-logo{
+    font-weight: 900;
+    font-size: 100px;
+    color: blue;
+}
+
+.footer-paragraph{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+ul li{
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+     
+}
+
+li{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px
 }
