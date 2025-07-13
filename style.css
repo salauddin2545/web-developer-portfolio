@@ -8,24 +8,30 @@
 }
 
 /* nav style */
+/* .logo-btn{
+    justify-content: space-between;
+} */
 nav{
     display: flex;
-    gap: 1000px;
-    margin: 0;
+    justify-content: space-between;
+    margin: 5px 20px;
+   
+    
 }
 .nav-logo{
     font-weight: 800;
     font-size: 50px;
     color: blue;
-    margin: 0;
+    
 }
 
 /* button-style */
 .button{
-    margin: 0 auto;
     background-color: blue;
     border-radius: 10px;
     color: white;
     padding: 5px 20px;
     font-size: 20px;
+    font-weight: 800;
+    margin: 0;
 }
