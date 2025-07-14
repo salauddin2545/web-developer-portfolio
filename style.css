@@ -1,7 +1,7 @@
 /* General Body & Root Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+    /* background-color: #f0f2f5; */
     /* Light background for the entire page */
     margin: 0;
     padding: 0;
@@ -381,13 +381,13 @@ body {
 .contact-section {
     display: flex;
     align-items: center;
+    color: #666666;
     background-color: #f0f2f5;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     /* Limit width */
-    width: 100%;
     padding: 80px 5%;
     /* Adjust padding for section */
-    margin: 0 auto;
+    margin: 20px auto;
     /* Center the section */
 }
 
